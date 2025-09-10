@@ -1,6 +1,6 @@
 # Nobel Prize Winners by Country (Animated Timeline)
 
-## 📌 Project Overview
+## Project Overview
 This project visualizes the **historical distribution of Nobel Prize winners** by birth country over time.  
 It uses **pandas** for data processing and **matplotlib’s animation** tools to create a dynamic horizontal bar chart race, showing the **top 10 countries** with the most Nobel Prize laureates each year.
 
@@ -8,7 +8,7 @@ The final output is an **animated GIF** (`nobel_timeline.gif`) that demonstrates
 
 ---
 
-## ⚙️ Features
+## Features
 - Loads and cleans Nobel Prize dataset (`nobel.csv`).  
 - Aggregates the **cumulative number of Nobel Prizes** per country.  
 - Animates the evolution of Nobel winners year by year.  
@@ -17,16 +17,16 @@ The final output is an **animated GIF** (`nobel_timeline.gif`) that demonstrates
 
 ---
 
-## 📂 Dataset
+## Dataset
 The dataset used: **`nobel.csv`**  
 - **year** – Year of the Nobel Prize award.  
 - **birth_country** – Country of birth of the laureate.  
 
-⚠️ Ensure that your dataset contains these columns. If not, adjust the column names in the code.
+Ensure that your dataset contains these columns. If not, adjust the column names in the code.
 
 ---
 
-## 🚀 Installation & Usage
+## Installation & Usage
 
 1. **Clone the repository (or copy the script)**  
    ```bash
